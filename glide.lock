@@ -1,0 +1,19 @@
+hash: b33a184011f406b7b49dbaa1133b6b4347a8057b169c5de99ea3708e863b423e
+updated: 2017-07-18T11:20:05.439410809+09:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: 99064174e013895bbd9b025c31100bd1d9b590ca
+- name: github.com/garyburd/redigo
+  version: 9f3a0116c9f72c5a56f958206a43dc881b502c37
+  subpackages:
+  - internal
+  - redis
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/spf13/cobra
+  version: c46add8a652801b61513ad36c56759f302fbb028
+- name: github.com/spf13/pflag
+  version: e57e3eeb33f795204c1ca35f56c44f83227c6e66
+testImports: []

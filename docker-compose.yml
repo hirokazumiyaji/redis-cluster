@@ -1,0 +1,44 @@
+version: '2'
+services:
+  node1:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example
+  node2:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6380:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example
+  node3:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6381:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example
+  node4:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6382:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example
+  node5:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6383:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example
+  node6:
+    image: redis:3.2.9-alpine
+    ports:
+      - "6384:6379"
+    volumes:
+      - ./config:/data
+    command: redis-server /data/redis.conf.example

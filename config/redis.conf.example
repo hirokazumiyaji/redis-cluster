@@ -1,0 +1,6 @@
+cluster-enabled yes
+cluster-config-file /home/redis/nodes.conf
+cluster-node-timeout 5000
+appendonly yes
+pidfile /home/redis/redis.pid
+dir /home/redis

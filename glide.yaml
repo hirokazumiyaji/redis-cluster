@@ -1,0 +1,7 @@
+package: github.com/hirokazumiyaji/redis-cluster
+import:
+  - package: github.com/BurntSushi/toml
+  - package: github.com/spf13/cobra
+  - package: github.com/spf13/pflag
+  - package: github.com/garyburd/redigo/redis
+  - package: github.com/pkg/errors
